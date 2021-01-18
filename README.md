@@ -13,6 +13,7 @@ This is a fork of https://github.com/ProlificLabs/shakesearch.
 
 - Project structure to make it more readable and testable
 - Search is now case-insensitive
+- Search now returns only one sentence 
 - Added a cache layer to make most common searches faster
 - Added some unit tests to make it more reliable
 - Fixed `slice out of bounds` error sometimes found when searching
@@ -20,3 +21,4 @@ This is a fork of https://github.com/ProlificLabs/shakesearch.
 ## Next steps
 
 - Add fuzzy search
+- Not found answer
